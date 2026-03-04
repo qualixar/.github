@@ -40,8 +40,8 @@ An open-source research initiative spanning the complete agent development lifec
 |-------|-------|------|
 | Agent Behavioral Contracts: Formal Specification and Runtime Enforcement | [arXiv:2602.22302](https://arxiv.org/abs/2602.22302) | 2026 |
 | SkillFortify: Formal Verification for AI Agent Skill Security | [arXiv:2603.00195](https://arxiv.org/abs/2603.00195) | 2026 |
-| Token-Efficient Regression Testing for Non-Deterministic AI Agent Workflows | [Zenodo](https://zenodo.org/records/18842011) | 2026 |
-| Privacy-Preserving Memory Architecture for Multi-Agent Systems | [Zenodo](https://zenodo.org/search?q=superlocalmemory) | 2026 |
+| Token-Efficient Regression Testing for Non-Deterministic AI Agent Workflows | [arXiv:2603.02601](https://arxiv.org/abs/2603.02601) | 2026 |
+| Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense | [arXiv:2603.02240](https://arxiv.org/abs/2603.02240) | 2026 |
 
 More papers in preparation. Conference targets: ASE 2026, NeurIPS 2026, AAMAS 2027, ICSE 2027.
 
