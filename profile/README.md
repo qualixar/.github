@@ -9,7 +9,7 @@
 **7 published papers &middot; 6 live products &middot; 10 research initiatives**
 
 [![Website](https://img.shields.io/badge/qualixar.com-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://qualixar.com)
-[![arXiv](https://img.shields.io/badge/arXiv-6_papers-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Bhardwaj%2C+Varun+Pratap)
+[![arXiv](https://img.shields.io/badge/arXiv-7_papers-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Bhardwaj%2C+Varun+Pratap)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--8726--4289-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-8726-4289)
 
 ---
@@ -31,7 +31,7 @@ Every framework helps you **build** agents. We make them **reliable** — with m
 | **[SkillFortify](https://github.com/qualixar/skillfortify)** | Supply chain security for AI agent skills. 22 frameworks, 96.95% F1, 0% FP | `pip install skillfortify` | [![arXiv](https://img.shields.io/badge/2603.00195-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.00195) [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/skillfortify/) |
 | **[AgentAssay](https://github.com/qualixar/agentassay)** | Token-efficient regression testing for non-deterministic agents. ~83% cost reduction | `pip install agentassay` | [![arXiv](https://img.shields.io/badge/2603.02601-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.02601) |
 | **[SLM Mesh](https://github.com/qualixar/slm-mesh)** | P2P communication for AI coding agents. 8 MCP tools, <100ms delivery | `npm i -g slm-mesh` | [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/slm-mesh) |
-| **[Qualixar OS](https://github.com/qualixar/qualixar-os)** | Universal agent operating system. 25 commands, every transport, every IDE | *Coming soon* | [![Zenodo](https://img.shields.io/badge/Zenodo-1682D4?logo=zenodo&logoColor=white)](https://zenodo.org/records/19454219) |
+| **[Qualixar OS](https://github.com/qualixar/qualixar-os)** | Universal agent operating system. 25 commands, every transport, every IDE | *Coming soon* | [![arXiv](https://img.shields.io/badge/2604.06392-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.06392) [![Zenodo](https://img.shields.io/badge/Zenodo-1682D4?logo=zenodo&logoColor=white)](https://zenodo.org/records/19454219) |
 
 ## Research — 7 Published Papers
 
@@ -43,7 +43,7 @@ Every framework helps you **build** agents. We make them **reliable** — with m
 | 4 | **Agent Behavioral Contracts** — Formal Specification and Runtime Enforcement | [arXiv:2602.22302](https://arxiv.org/abs/2602.22302) | agentAssert |
 | 5 | **Formal Verification** for Agent Skill Supply Chain Security | [arXiv:2603.00195](https://arxiv.org/abs/2603.00195) | SkillFortify |
 | 6 | **Token-Efficient Regression Testing** for Non-Deterministic AI Agents | [arXiv:2603.02601](https://arxiv.org/abs/2603.02601) | AgentAssay |
-| 7 | **A Universal Agent Operating System** | [Zenodo DOI:10.5281/zenodo.19454219](https://zenodo.org/records/19454219) | Qualixar OS |
+| 7 | **A Universal Agent Operating System** | [arXiv:2604.06392](https://arxiv.org/abs/2604.06392) | Qualixar OS |
 
 Conference targets: NeurIPS 2026, ASE 2026, AAMAS 2027, ICSE 2027.
 
