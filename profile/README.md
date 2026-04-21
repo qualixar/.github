@@ -6,7 +6,7 @@
 
 <br/>
 
-**7 published papers &middot; 6 live products &middot; 10 research initiatives**
+**7 published papers &middot; 7 live products &middot; 10 research initiatives**
 
 [![Website](https://img.shields.io/badge/qualixar.com-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://qualixar.com)
 [![arXiv](https://img.shields.io/badge/arXiv-7_papers-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Bhardwaj%2C+Varun+Pratap)
@@ -30,6 +30,7 @@ Every framework helps you **build** agents. We make them **reliable** — with m
 | **[SuperLocalMemory](https://github.com/qualixar/superlocalmemory)** | Privacy-first AI agent memory. 74.8% LoCoMo, zero cloud, Fisher-Rao retrieval | `npm i -g superlocalmemory` | [![arXiv](https://img.shields.io/badge/3_papers-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.14588) [![Web](https://img.shields.io/badge/superlocalmemory.com-06b6d4?logo=google-chrome&logoColor=white)](https://superlocalmemory.com) |
 | **[SkillFortify](https://github.com/qualixar/skillfortify)** | Supply chain security for AI agent skills. 22 frameworks, 96.95% F1, 0% FP | `pip install skillfortify` | [![arXiv](https://img.shields.io/badge/2603.00195-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.00195) [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/skillfortify/) |
 | **[AgentAssay](https://github.com/qualixar/agentassay)** | Token-efficient regression testing for non-deterministic agents. ~83% cost reduction | `pip install agentassay` | [![arXiv](https://img.shields.io/badge/2603.02601-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.02601) |
+| **[SLM MCP Hub](https://github.com/qualixar/slm-mcp-hub)** | First MCP gateway that learns. Intelligent federation, caching, cost tracking | `pip install slm-mcp-hub` | [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/slm-mcp-hub/) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/slm-mcp-hub) |
 | **[SLM Mesh](https://github.com/qualixar/slm-mesh)** | P2P communication for AI coding agents. 8 MCP tools, <100ms delivery | `npm i -g slm-mesh` | [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/slm-mesh) |
 | **[Qualixar OS](https://github.com/qualixar/qualixar-os)** | Universal agent operating system. 25 commands, every transport, every IDE | *Coming soon* | [![arXiv](https://img.shields.io/badge/2604.06392-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.06392) [![Zenodo](https://img.shields.io/badge/Zenodo-1682D4?logo=zenodo&logoColor=white)](https://zenodo.org/records/19454219) |
 
@@ -67,6 +68,9 @@ npm install -g superlocalmemory
 
 # Agent skill security — scan 22 frameworks in one command
 pip install skillfortify && skillfortify scan
+
+# MCP gateway that learns — federate 30+ MCP servers, one endpoint
+pip install slm-mcp-hub && slm-mcp-hub start
 
 # P2P agent communication — agents discover + message each other
 npm install -g slm-mesh && slm-mesh start
