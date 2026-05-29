@@ -27,6 +27,7 @@ Every framework helps you **build** agents. We make them **reliable** — with m
 | Product | What It Does | Install | Links |
 |---------|-------------|---------|-------|
 | **[agentAssert](https://github.com/qualixar/agentassert-abc)** | Design-by-Contract for AI agents. 12 domain contracts, 293 benchmarks, &Theta;=0.9541 | `pip install agentassert-abc[yaml,math]` | [![arXiv](https://img.shields.io/badge/2602.22302-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.22302) [![Web](https://img.shields.io/badge/agentassert.com-6366f1?logo=google-chrome&logoColor=white)](https://agentassert.com) |
+| **[AgentAssert Type-C](https://github.com/qualixar/agentassert-typec)** | Zero-code behavioral contracts via HTTP proxy. 7 operators, JSD drift detection, Θ reliability scorer | `pip install agentassert-typec-proxy` | [![arXiv](https://img.shields.io/badge/2602.22302-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.22302) [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/agentassert-typec-proxy/) |
 | **[SuperLocalMemory](https://github.com/qualixar/superlocalmemory)** | Privacy-first AI agent memory. 74.8% LoCoMo, zero cloud, Fisher-Rao retrieval | `npm i -g superlocalmemory` | [![arXiv](https://img.shields.io/badge/3_papers-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.14588) [![Web](https://img.shields.io/badge/superlocalmemory.com-06b6d4?logo=google-chrome&logoColor=white)](https://superlocalmemory.com) |
 | **[SkillFortify](https://github.com/qualixar/skillfortify)** | Supply chain security for AI agent skills. 22 frameworks, 96.95% F1, 0% FP | `pip install skillfortify` | [![arXiv](https://img.shields.io/badge/2603.00195-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.00195) [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/skillfortify/) |
 | **[AgentAssay](https://github.com/qualixar/agentassay)** | Token-efficient regression testing for non-deterministic agents. ~83% cost reduction | `pip install agentassay` | [![arXiv](https://img.shields.io/badge/2603.02601-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.02601) |
@@ -62,6 +63,9 @@ Conference targets: NeurIPS 2026, ASE 2026, AAMAS 2027, ICSE 2027.
 ```bash
 # Agent behavioral contracts — 12 domains, 293 benchmarks
 pip install agentassert-abc[yaml,math]
+
+# Zero-code behavioral contracts via proxy — works with any LLM provider
+pip install agentassert-typec-proxy
 
 # AI agent memory — works with Claude Code, Cursor, 17+ tools
 npm install -g superlocalmemory
