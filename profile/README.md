@@ -6,10 +6,10 @@
 
 <br/>
 
-**7 published papers &middot; 7 live products &middot; 10 research initiatives**
+**10 published papers &middot; 11 live products &middot; 10 research initiatives**
 
 [![Website](https://img.shields.io/badge/qualixar.com-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://qualixar.com)
-[![arXiv](https://img.shields.io/badge/arXiv-7_papers-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Bhardwaj%2C+Varun+Pratap)
+[![arXiv](https://img.shields.io/badge/arXiv-10_papers-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Bhardwaj%2C+Varun+Pratap)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--8726--4289-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-8726-4289)
 
 ---
@@ -34,19 +34,24 @@ Every framework helps you **build** agents. We make them **reliable** — with m
 | **[SLM MCP Hub](https://github.com/qualixar/slm-mcp-hub)** | First MCP gateway that learns. Intelligent federation, caching, cost tracking | `pip install slm-mcp-hub` | [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/slm-mcp-hub/) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/slm-mcp-hub) |
 | **[SLM Mesh](https://github.com/qualixar/slm-mesh)** | P2P communication for AI coding agents. 8 MCP tools, <100ms delivery | `npm i -g slm-mesh` | [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/slm-mesh) |
 | **[Qualixar OS](https://github.com/qualixar/qualixar-os)** | Universal agent operating system. 25 commands, every transport, every IDE | *Coming soon* | [![arXiv](https://img.shields.io/badge/2604.06392-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.06392) [![Zenodo](https://img.shields.io/badge/Zenodo-1682D4?logo=zenodo&logoColor=white)](https://zenodo.org/records/19454219) |
-| **[bounded-loops](https://github.com/qualixar/bounded-loops)** | Runnable, bounded AI-agent loops. An independent gate + nine enforced bounds decide DONE — never the agent's word. 63 loops across a dozen industries, keyless | `pip install bounded-loops` | [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/bounded-loops/) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/bounded-loops) |
+| **[bounded-loops](https://github.com/qualixar/bounded-loops)** | Runnable, bounded AI-agent loops. An independent gate + nine enforced bounds decide DONE — never the agent's word. 68 loop folders across a dozen industries, 64 keyless | `pip install bounded-loops` | [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/bounded-loops/) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/bounded-loops) |
+| **[Agent Amplifier](https://github.com/qualixar/agent-amplifier)** | Runtime amplification for AI coding agents. 5 deterministic hooks, 7 host adapters, zero extra LLM calls | `pip install agent-amplifier` | [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/agent-amplifier/) |
+| **[Jev Decision Layer](https://github.com/qualixar/jev-decision-layer)** | Typed decisions for coding agents. Bounded task, tool, skill and review routing with probabilities and a local receipt — execution stays with the agent | `codex plugin marketplace add qualixar/jev-decision-layer` | [![License](https://img.shields.io/badge/MIT-6366f1)](https://github.com/qualixar/jev-decision-layer/blob/main/LICENSE) |
 
-## Research — 7 Published Papers
+## Research — 10 Published Papers
 
 | # | Paper | Venue | Product |
 |---|-------|-------|---------|
-| 1 | **The Living Brain** — Biologically-Inspired Forgetting, Cognitive Quantization, Multi-Channel Retrieval | [arXiv:2604.04514](https://arxiv.org/abs/2604.04514) | SuperLocalMemory V3.3 |
-| 2 | **Information-Geometric Foundations** for Zero-LLM Enterprise Agent Memory | [arXiv:2603.14588](https://arxiv.org/abs/2603.14588) | SuperLocalMemory V3 |
-| 3 | **Privacy-Preserving Multi-Agent Memory** with Bayesian Trust Defense | [arXiv:2603.02240](https://arxiv.org/abs/2603.02240) | SuperLocalMemory V2 |
-| 4 | **Agent Behavioral Contracts** — Formal Specification and Runtime Enforcement | [arXiv:2602.22302](https://arxiv.org/abs/2602.22302) | agentAssert |
-| 5 | **Formal Verification** for Agent Skill Supply Chain Security | [arXiv:2603.00195](https://arxiv.org/abs/2603.00195) | SkillFortify |
-| 6 | **Token-Efficient Regression Testing** for Non-Deterministic AI Agents | [arXiv:2603.02601](https://arxiv.org/abs/2603.02601) | AgentAssay |
-| 7 | **A Universal Agent Operating System** | [arXiv:2604.06392](https://arxiv.org/abs/2604.06392) | Qualixar OS |
+| 1 | **Bounded Loops** — Pre-Run Spend Bounds, Proved Termination, Verified Completion | [arXiv:2609.27871](https://arxiv.org/abs/2609.27871) | bounded-loops |
+| 2 | **Agent Behavioral Contracts II** — Certifying Compositional Reliability | [arXiv:2608.12895](https://arxiv.org/abs/2608.12895) | agentAssert |
+| 3 | **The Governed Memory Operating System** for AI Agents | [arXiv:2608.08253](https://arxiv.org/abs/2608.08253) | SuperLocalMemory 4.0 |
+| 4 | **A Universal Agent Operating System** | [arXiv:2604.06392](https://arxiv.org/abs/2604.06392) | Qualixar OS |
+| 5 | **The Living Brain** — Biologically-Inspired Forgetting, Cognitive Quantization, Multi-Channel Retrieval | [arXiv:2604.04514](https://arxiv.org/abs/2604.04514) | SuperLocalMemory V3.3 |
+| 6 | **Information-Geometric Foundations** for Zero-LLM Enterprise Agent Memory | [arXiv:2603.14588](https://arxiv.org/abs/2603.14588) | SuperLocalMemory V3 |
+| 7 | **Token-Efficient Regression Testing** for Non-Deterministic AI Agents | [arXiv:2603.02601](https://arxiv.org/abs/2603.02601) | AgentAssay |
+| 8 | **Formal Verification** for Agent Skill Supply Chain Security | [arXiv:2603.00195](https://arxiv.org/abs/2603.00195) | SkillFortify |
+| 9 | **Agent Behavioral Contracts** — Formal Specification and Runtime Enforcement | [arXiv:2602.22302](https://arxiv.org/abs/2602.22302) | agentAssert |
+| 10 | **Privacy-Preserving Multi-Agent Memory** with Bayesian Trust Defense | [arXiv:2603.02240](https://arxiv.org/abs/2603.02240) | SuperLocalMemory V2 |
 
 Conference targets: NeurIPS 2026, ASE 2026, AAMAS 2027, ICSE 2027.
 
@@ -92,7 +97,7 @@ npm install -g slm-mesh && slm-mesh start
 
 | Site | What's There |
 |------|-------------|
-| [**varunpratap.com**](https://varunpratap.com) | Author portfolio — all products, 7 papers, blog |
+| [**varunpratap.com**](https://varunpratap.com) | Author portfolio — all products, 10 papers, blog |
 | [**agentassert.com**](https://agentassert.com) | agentAssert — benchmarks, contracts, getting started |
 | [**superlocalmemory.com**](https://superlocalmemory.com) | SuperLocalMemory — architecture, integrations, research landscape |
 | [**qualixar.com**](https://qualixar.com) | Platform hub — all products, documentation |
