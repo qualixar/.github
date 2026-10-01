@@ -1,126 +1,60 @@
-<div align="center">
+# Qualixar — AI Reliability Engineering
 
-# Qualixar
+Open-source tools for AI agent decisions, memory, behavioral contracts and bounded execution. Qualixar is an independent research initiative by [Varun Pratap Bhardwaj](https://www.varunpratap.com).
 
-### Mathematically-Grounded Infrastructure for Reliable AI Agents
+## Choose a starting point
 
-<br/>
+| Your task | Product | Start here |
+| --- | --- | --- |
+| Choose a task, tool or review route from explicit options | [Jev Decision Layer](https://github.com/qualixar/jev-decision-layer) | [Decision recipes and setup](https://qualixar.com/products/jev-decision-layer) |
+| Run an agent loop until an independent check passes, within declared limits | [Bounded Loops & Graphs](https://github.com/qualixar/bounded-loops) | [Keyless example and receipt verification](https://github.com/qualixar/bounded-loops/blob/main/docs/QUICK_PROOF.md) |
+| Store project context and recall it across AI sessions | [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) | [Install and try a local memory workflow](https://www.superlocalmemory.com) |
+| Define behavioral contracts and check adapter outputs | [AgentAssert](https://github.com/qualixar/agentassert-abc) | [Released API and getting started](https://agentassert.com/getting-started/) |
 
-**10 published papers &middot; 11 live products &middot; 10 research initiatives**
+Jev returns advisory decisions; its answer does not authorize an action. Bounded Loops' first keyless example uses a stub worker and real pytest checks. SuperLocalMemory's optional providers and connectors have separate network behavior. AgentAssert's small example checks a caller-supplied flag; it is not a security classifier.
 
-[![Website](https://img.shields.io/badge/qualixar.com-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://qualixar.com)
-[![arXiv](https://img.shields.io/badge/arXiv-10_papers-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/?searchtype=author&query=Bhardwaj%2C+Varun+Pratap)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--8726--4289-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-8726-4289)
-
----
-
-</div>
-
-## The Problem
-
-2.4 million AI agents in production. Zero standard methodology for verifying they work correctly. Agents leak data, exceed budgets, drift from instructions, and fail in ways no one predicted.
-
-Every framework helps you **build** agents. We make them **reliable** — with math, not marketing.
-
-## Products
-
-| Product | What It Does | Install | Links |
-|---------|-------------|---------|-------|
-| **[agentAssert](https://github.com/qualixar/agentassert-abc)** | Design-by-Contract for AI agents. 12 domain contracts, 293 benchmarks, &Theta;=0.9541 | `pip install agentassert-abc[yaml,math]` | [![arXiv](https://img.shields.io/badge/2602.22302-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.22302) [![Web](https://img.shields.io/badge/agentassert.com-6366f1?logo=google-chrome&logoColor=white)](https://agentassert.com) |
-| **[AgentAssert Type-C](https://github.com/qualixar/agentassert-typec)** | Zero-code behavioral contracts via HTTP proxy. 7 operators, JSD drift detection, Θ reliability scorer | `pip install agentassert-typec-proxy` | [![arXiv](https://img.shields.io/badge/2602.22302-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.22302) [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/agentassert-typec-proxy/) |
-| **[SuperLocalMemory](https://github.com/qualixar/superlocalmemory)** | Privacy-first AI agent memory. 74.8% LoCoMo, zero cloud, Fisher-Rao retrieval | `npm i -g superlocalmemory` | [![arXiv](https://img.shields.io/badge/3_papers-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.14588) [![Web](https://img.shields.io/badge/superlocalmemory.com-06b6d4?logo=google-chrome&logoColor=white)](https://superlocalmemory.com) |
-| **[SkillFortify](https://github.com/qualixar/skillfortify)** | Supply chain security for AI agent skills. 22 frameworks, 96.95% F1, 0% FP | `pip install skillfortify` | [![arXiv](https://img.shields.io/badge/2603.00195-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.00195) [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/skillfortify/) |
-| **[AgentAssay](https://github.com/qualixar/agentassay)** | Token-efficient regression testing for non-deterministic agents. ~83% cost reduction | `pip install agentassay` | [![arXiv](https://img.shields.io/badge/2603.02601-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.02601) |
-| **[SLM MCP Hub](https://github.com/qualixar/slm-mcp-hub)** | First MCP gateway that learns. Intelligent federation, caching, cost tracking | `pip install slm-mcp-hub` | [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/slm-mcp-hub/) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/slm-mcp-hub) |
-| **[SLM Mesh](https://github.com/qualixar/slm-mesh)** | P2P communication for AI coding agents. 8 MCP tools, <100ms delivery | `npm i -g slm-mesh` | [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/slm-mesh) |
-| **[Qualixar OS](https://github.com/qualixar/qualixar-os)** | Universal agent operating system. 25 commands, every transport, every IDE | *Coming soon* | [![arXiv](https://img.shields.io/badge/2604.06392-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.06392) [![Zenodo](https://img.shields.io/badge/Zenodo-1682D4?logo=zenodo&logoColor=white)](https://zenodo.org/records/19454219) |
-| **[bounded-loops](https://github.com/qualixar/bounded-loops)** | Runnable, bounded AI-agent loops. An independent gate + nine enforced bounds decide DONE — never the agent's word. 69 loop packages across a dozen industries, 65 keyless | `pip install bounded-loops` | [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/bounded-loops/) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/bounded-loops) |
-| **[Agent Amplifier](https://github.com/qualixar/agent-amplifier)** | Runtime amplification for AI coding agents. 5 deterministic hooks, 7 host adapters, zero extra LLM calls | `pip install agent-amplifier` | [![PyPI](https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/agent-amplifier/) |
-| **[Jev Decision Layer](https://github.com/qualixar/jev-decision-layer)** | Typed decisions for coding agents. Bounded task, tool, skill and review routing with probabilities and a local receipt — execution stays with the agent | `codex plugin marketplace add qualixar/jev-decision-layer` | [![License](https://img.shields.io/badge/MIT-6366f1)](https://github.com/qualixar/jev-decision-layer/blob/main/LICENSE) |
-
-## Research — 10 Published Papers
-
-| # | Paper | Venue | Product |
-|---|-------|-------|---------|
-| 1 | **Bounded Loops** — Pre-Run Spend Bounds, Proved Termination, Verified Completion | [arXiv:2609.27871](https://arxiv.org/abs/2609.27871) | bounded-loops |
-| 2 | **Agent Behavioral Contracts II** — Certifying Compositional Reliability | [arXiv:2608.12895](https://arxiv.org/abs/2608.12895) | agentAssert |
-| 3 | **The Governed Memory Operating System** for AI Agents | [arXiv:2608.08253](https://arxiv.org/abs/2608.08253) | SuperLocalMemory 4.0 |
-| 4 | **A Universal Agent Operating System** | [arXiv:2604.06392](https://arxiv.org/abs/2604.06392) | Qualixar OS |
-| 5 | **The Living Brain** — Biologically-Inspired Forgetting, Cognitive Quantization, Multi-Channel Retrieval | [arXiv:2604.04514](https://arxiv.org/abs/2604.04514) | SuperLocalMemory V3.3 |
-| 6 | **Information-Geometric Foundations** for Zero-LLM Enterprise Agent Memory | [arXiv:2603.14588](https://arxiv.org/abs/2603.14588) | SuperLocalMemory V3 |
-| 7 | **Token-Efficient Regression Testing** for Non-Deterministic AI Agents | [arXiv:2603.02601](https://arxiv.org/abs/2603.02601) | AgentAssay |
-| 8 | **Formal Verification** for Agent Skill Supply Chain Security | [arXiv:2603.00195](https://arxiv.org/abs/2603.00195) | SkillFortify |
-| 9 | **Agent Behavioral Contracts** — Formal Specification and Runtime Enforcement | [arXiv:2602.22302](https://arxiv.org/abs/2602.22302) | agentAssert |
-| 10 | **Privacy-Preserving Multi-Agent Memory** with Bayesian Trust Defense | [arXiv:2603.02240](https://arxiv.org/abs/2603.02240) | SuperLocalMemory V2 |
-
-Conference targets: NeurIPS 2026, ASE 2026, AAMAS 2027, ICSE 2027.
-
-## In Development
-
-| Codename | Focus Area |
-|----------|-----------|
-| Project Echo | Multi-agent communication degradation benchmarks |
-| Project Sentinel | Reliability analysis for AI-generated code |
-| Project Rewind | Time-travel debugging for autonomous agents |
-| Project Aurora | Chaos engineering for AI agent systems |
-
-## Quick Start
+## Try a product
 
 ```bash
-# Agent behavioral contracts — 12 domains, 293 benchmarks
-pip install agentassert-abc[yaml,math]
+# Bounded Loops: install a loop in your project and run its keyless example
+python -m pip install bounded-loops
+bl loops install bug-fix-red-green --dest ./loops
+bl run loops/bug-fix-red-green --yes --run-id first-proof
 
-# Zero-code behavioral contracts via proxy — works with any LLM provider
-pip install agentassert-typec-proxy
-
-# AI agent memory — works with Claude Code, Cursor, 17+ tools
+# SuperLocalMemory: install, then select your operating mode explicitly
 npm install -g superlocalmemory
+slm setup
 
-# Agent skill security — scan 22 frameworks in one command
-pip install skillfortify && skillfortify scan
-
-# MCP gateway that learns — federate 30+ MCP servers, one endpoint
-pip install slm-mcp-hub && slm-mcp-hub start
-
-# P2P agent communication — agents discover + message each other
-npm install -g slm-mesh && slm-mesh start
+# AgentAssert: install the YAML and mathematical dependencies
+python -m pip install 'agentassert-abc[yaml,math]'
 ```
 
-## Philosophy
+For Jev, follow the [host-specific installation guide](https://github.com/qualixar/jev-decision-layer#install-and-upgrade). Check each repository's supported platforms and setup requirements before installation.
 
-- Every tool is backed by **published, peer-reviewed research** — not blog posts
-- We solve problems with **mathematical proofs** — not heuristics
-- Every product is **open-source** and framework-agnostic
-- Privacy-first: your data stays on **your machine**
+## Research and reproducible examples
 
-## Websites
+Read [Qualixar's research directory](https://qualixar.com/research/papers) alongside each product's source and examples. Public arXiv papers are **preprints**; an arXiv record does not establish peer review. Mathematical results and experiment figures apply to the assumptions, datasets and versions described in each paper.
 
-| Site | What's There |
-|------|-------------|
-| [**varunpratap.com**](https://varunpratap.com) | Author portfolio — all products, 10 papers, blog |
-| [**agentassert.com**](https://agentassert.com) | agentAssert — benchmarks, contracts, getting started |
-| [**superlocalmemory.com**](https://superlocalmemory.com) | SuperLocalMemory — architecture, integrations, research landscape |
-| [**qualixar.com**](https://qualixar.com) | Platform hub — all products, documentation |
+- [Bounded Loops — arXiv:2609.27871](https://arxiv.org/abs/2609.27871)
+- [SuperLocalMemory 4.0 — arXiv:2608.08253v2](https://arxiv.org/abs/2608.08253v2)
+- [Agent Behavioral Contracts — arXiv:2602.22302](https://arxiv.org/abs/2602.22302)
 
-## Get Involved
+## Ask, propose, and share
 
-- Read our [papers on arXiv](https://arxiv.org/search/?searchtype=author&query=Bhardwaj%2C+Varun+Pratap)
-- Star the repos you find useful
-- Open issues for bugs or feature requests
-- Cite our work in your research ([BibTeX on each repo](https://agentassert.com/research))
+Use the [Qualixar community hub](https://github.com/orgs/qualixar/discussions):
 
----
+- [Q&A](https://github.com/qualixar/.github/discussions/categories/q-a): installation, configuration and usage questions.
+- [Ideas](https://github.com/qualixar/.github/discussions/categories/ideas): describe a task and the workflow you want to improve.
+- [Polls](https://github.com/qualixar/.github/discussions/categories/polls): help prioritize tutorials and examples.
+- [Announcements](https://github.com/qualixar/.github/discussions/categories/announcements): maintainer updates and release links.
+- [Show and tell](https://github.com/qualixar/.github/discussions/categories/show-and-tell): share an integration and what you observed.
 
-<div align="center">
+Report reproducible bugs in the affected product's issue tracker. Follow the repository's published security-reporting instructions where available; do not post vulnerabilities, secrets, private prompts or customer data publicly. See the [community guide](https://github.com/qualixar/.github/blob/main/COMMUNITY.md).
 
-An independent research initiative by **[Varun Pratap Bhardwaj](https://varunpratap.com)**
+If a product helps your work, starring its repository is one way to follow it. Using the tools and participating in discussions does not require a star.
 
-Senior Manager & Solution Architect at Accenture &middot; 15 years across 6 industries
+## More Qualixar projects
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Varun_Pratap-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/varun-pratap-bhardwaj-7ab63742)
-[![X](https://img.shields.io/badge/X-@varunPbhardwaj-000000?style=flat-square&logo=x)](https://x.com/varunPbhardwaj)
-[![Email](https://img.shields.io/badge/Email-varun.pratap.bhardwaj-EA4335?style=flat-square&logo=gmail)](mailto:varun.pratap.bhardwaj@gmail.com)
+Explore [all public repositories](https://github.com/orgs/qualixar/repositories) and the [product directory](https://qualixar.com/products) for SkillFortify, AgentAssay, SLM MCP Hub, SLM Mesh, Agent Amplifier and Qualixar OS. Consult each project's current README for availability and evidence.
 
-*We don't just identify problems in agent development. We prove solutions.*
-
-</div>
+[Qualixar](https://qualixar.com) · [SuperLocalMemory](https://www.superlocalmemory.com) · [AgentAssert](https://agentassert.com) · [Author and research](https://www.varunpratap.com)
