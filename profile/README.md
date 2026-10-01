@@ -2,6 +2,8 @@
 
 Open-source tools for AI agent decisions, memory, behavioral contracts and bounded execution. Qualixar is an independent research initiative by [Varun Pratap Bhardwaj](https://www.varunpratap.com).
 
+**10 core products · 10 public arXiv preprints**
+
 ## Choose a starting point
 
 | Your task | Product | Start here |
@@ -53,8 +55,38 @@ Report reproducible bugs in the affected product's issue tracker. Follow the rep
 
 If a product helps your work, starring its repository is one way to follow it. Using the tools and participating in discussions does not require a star.
 
-## More Qualixar projects
+## All 10 products
 
-Explore [all public repositories](https://github.com/orgs/qualixar/repositories) and the [product directory](https://qualixar.com/products) for SkillFortify, AgentAssay, SLM MCP Hub, SLM Mesh, Agent Amplifier and Qualixar OS. Consult each project's current README for availability and evidence.
+| Product | Focus | Product page |
+| --- | --- | --- |
+| [Jev Decision Layer](https://github.com/qualixar/jev-decision-layer) | AI agent decision layer | [Overview](https://qualixar.com/products/jev-decision-layer) |
+| [Bounded Loops](https://github.com/qualixar/bounded-loops) | Bounded AI agent loops | [Overview](https://qualixar.com/products/bounded-loops) |
+| [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) | Local AI agent memory | [Overview](https://qualixar.com/products/superlocalmemory) |
+| [SLM MCP Hub](https://github.com/qualixar/slm-mcp-hub) | MCP gateway | [Overview](https://qualixar.com/products/slm-mcp-hub) |
+| [SkillFortify](https://github.com/qualixar/skillfortify) | AI agent skill security | [Overview](https://qualixar.com/products/skillfortify) |
+| [AgentAssert](https://github.com/qualixar/agentassert-abc) | AI agent behavioral contracts | [Overview](https://qualixar.com/products/agentassert) |
+| [AgentAssay](https://github.com/qualixar/agentassay) | AI agent regression testing | [Overview](https://qualixar.com/products/agentassay) |
+| [Agent Amplifier](https://github.com/qualixar/agent-amplifier) | AI coding-agent runtime | [Overview](https://qualixar.com/products/agent-amplifier) |
+| [SLM Mesh](https://github.com/qualixar/slm-mesh) | AI agent communication | [Overview](https://qualixar.com/products/slm-mesh) |
+| [Qualixar OS](https://github.com/qualixar/qualixar-os) | AI agent operating system | [Overview](https://qualixar.com/products/qualixar-os) |
+
+This is the core product directory, not a claim that every project has the same release status, platform support or validation. Check each repository's current README before choosing a product. The four starting points above are this rollout's detailed recipe and workflow focus.
+
+## All 10 research papers
+
+These public arXiv records are preprints. Read each paper for its assumptions, version, experimental scope and limitations. Listing a paper beside a product does not establish that every current feature was evaluated in that paper.
+
+| Paper | arXiv | Related project |
+| --- | --- | --- |
+| Bounded Loops: Pre-Run Spend Bounds, Proved Termination, and Verified Completion for Agent Harnesses | [2609.27871](https://arxiv.org/abs/2609.27871) | Bounded Loops |
+| Agent Behavioral Contracts II: Certifying Compositional Reliability Without Assuming Independence | [2608.12895](https://arxiv.org/abs/2608.12895) | AgentAssert |
+| SuperLocalMemory 4.0: The Governed Memory Operating System for AI Agents | [2608.08253](https://arxiv.org/abs/2608.08253) | SuperLocalMemory |
+| Qualixar OS: A Universal Operating System for AI Agent Orchestration | [2604.06392](https://arxiv.org/abs/2604.06392) | Qualixar OS |
+| SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems | [2604.04514](https://arxiv.org/abs/2604.04514) | SuperLocalMemory |
+| SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory | [2603.14588](https://arxiv.org/abs/2603.14588) | SuperLocalMemory |
+| AgentAssay: Token-Efficient Regression Testing for Non-Deterministic AI Agent Workflows | [2603.02601](https://arxiv.org/abs/2603.02601) | AgentAssay |
+| Formal Analysis and Supply Chain Security for Agentic AI Skills | [2603.00195](https://arxiv.org/abs/2603.00195) | SkillFortify |
+| Agent Behavioral Contracts: Formal Specification and Runtime Enforcement for Reliable Autonomous AI Agents | [2602.22302](https://arxiv.org/abs/2602.22302) | AgentAssert |
+| SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning | [2603.02240](https://arxiv.org/abs/2603.02240) | SuperLocalMemory |
 
 [Qualixar](https://qualixar.com) · [SuperLocalMemory](https://www.superlocalmemory.com) · [AgentAssert](https://agentassert.com) · [Author and research](https://www.varunpratap.com)
