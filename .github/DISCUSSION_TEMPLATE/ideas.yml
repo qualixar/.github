@@ -1,0 +1,16 @@
+title: "[Idea] "
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Which task should become easier?
+      description: Name the product, current workflow and problem. Use synthetic details.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the desired behavior and how someone could check it works.
+    validations:
+      required: true

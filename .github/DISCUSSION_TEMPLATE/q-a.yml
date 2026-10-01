@@ -1,0 +1,30 @@
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use synthetic examples. Do not include secrets, private prompts or customer data. Report bugs in the product issue tracker and follow published security-reporting instructions where available; never post vulnerabilities publicly."
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Jev Decision Layer
+        - Bounded Loops
+        - SuperLocalMemory
+        - AgentAssert
+        - Another Qualixar project
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Version, operating system and host
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to do?
+      description: Include the expected result and what happened, with a small synthetic example.
+    validations:
+      required: true
