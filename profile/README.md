@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/qualixar-readme-hero.svg" alt="Qualixar — AI Reliability Engineering" width="100%" />
+</p>
+
 # Qualixar — AI Reliability Engineering
 
 Open-source tools for AI agent decisions, memory, behavioral contracts and bounded execution. Qualixar is an independent research initiative by [Varun Pratap Bhardwaj](https://www.varunpratap.com).
