@@ -4,9 +4,11 @@
 
 # Qualixar — AI Reliability Engineering
 
-Open-source tools for AI agent decisions, memory, behavioral contracts and bounded execution. Qualixar is an independent research initiative by [Varun Pratap Bhardwaj](https://www.varunpratap.com).
+Open-source tools for AI agent decisions, memory, behavioral contracts, bounded execution and multi-agent observability. Qualixar is an independent research initiative by [Varun Pratap Bhardwaj](https://www.varunpratap.com).
 
-**10 core products · 10 public arXiv preprints**
+**11 core products · 10 public arXiv preprints**
+
+> **New: [ModStage](https://github.com/qualixar/modstage)** runs Codex, Grok, Gemini (Antigravity), Kimi, Qwen Code, OpenCode and Claude subagents side by side inside Claude Code. Watch every step, steer agents mid-run, and approve their risky actions from the panel or from chat. MIT. [Product page](https://qualixar.com/products/modstage) · [Install](https://github.com/qualixar/modstage#install)
 
 ## Choose a starting point
 
@@ -16,8 +18,9 @@ Open-source tools for AI agent decisions, memory, behavioral contracts and bound
 | Run an agent loop until an independent check passes, within declared limits | [Bounded Loops & Graphs](https://github.com/qualixar/bounded-loops) | [Keyless example and receipt verification](https://github.com/qualixar/bounded-loops/blob/main/docs/QUICK_PROOF.md) |
 | Store project context and recall it across AI sessions | [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) | [Install and try a local memory workflow](https://www.superlocalmemory.com) |
 | Define behavioral contracts and check adapter outputs | [AgentAssert](https://github.com/qualixar/agentassert-abc) | [Released API and getting started](https://agentassert.com/getting-started/) |
+| Run Codex, Grok, Gemini (Antigravity), Kimi, Qwen Code and Claude subagents side by side in Claude Code, and approve their risky actions | [ModStage](https://github.com/qualixar/modstage) | [Install the Claude Code plugin](https://qualixar.com/products/modstage) |
 
-Jev returns advisory decisions; its answer does not authorize an action. Bounded Loops' first keyless example uses a stub worker and real pytest checks. SuperLocalMemory's optional providers and connectors have separate network behavior. AgentAssert's small example checks a caller-supplied flag; it is not a security classifier.
+Jev returns advisory decisions; its answer does not authorize an action. Bounded Loops' first keyless example uses a stub worker and real pytest checks. SuperLocalMemory's optional providers and connectors have separate network behavior. AgentAssert's small example checks a caller-supplied flag; it is not a security classifier. ModStage runs the agent CLIs you already have signed in; its approval inbox routes each agent's own permission requests and is not a sandbox.
 
 ## Try a product
 
@@ -33,6 +36,10 @@ slm setup
 
 # AgentAssert: install the YAML and mathematical dependencies
 python -m pip install 'agentassert-abc[yaml,math]'
+
+# ModStage: run other coding agents inside Claude Code (then start a new session)
+claude plugin marketplace add qualixar/modstage
+claude plugin install modstage@modstage
 ```
 
 For Jev, follow the [host-specific installation guide](https://github.com/qualixar/jev-decision-layer#install-and-upgrade). Check each repository's supported platforms and setup requirements before installation.
@@ -59,7 +66,7 @@ Report reproducible bugs in the affected product's issue tracker. Follow the rep
 
 If a product helps your work, starring its repository is one way to follow it. Using the tools and participating in discussions does not require a star.
 
-## All 10 products
+## All 11 products
 
 Choose the capability your workflow needs, then follow the setup, examples or research in **Resources**. Product names link directly to the source repositories.
 
@@ -74,6 +81,7 @@ Choose the capability your workflow needs, then follow the setup, examples or re
 | [AgentAssay](https://github.com/qualixar/agentassay) | Measures behavioral regressions with execution traces, statistical verdicts and adaptive trial budgets. | Testing & measurement | Compare agent behavior after changing prompts, models or tools; reuse existing traces. | [Product](https://qualixar.com/products/agentassay)<br>[Guide](https://github.com/qualixar/agentassay#quick-start-pick-your-framework)<br>[Paper](https://arxiv.org/abs/2603.02601) |
 | [Agent Amplifier](https://github.com/qualixar/agent-amplifier) | Adds effort routing, goal anchoring, convergence checks and token budgets to coding-agent sessions. | Coding runtime | Keep coding sessions focused and manage effort through supported host adapters. | [Product](https://qualixar.com/products/agent-amplifier)<br>[Setup](https://github.com/qualixar/agent-amplifier#install-60-seconds)<br>[Post](https://qualixar.com/blog/agent-amplifier-v1-launch) |
 | [SLM Mesh](https://github.com/qualixar/slm-mesh) | Connects agents across harnesses with peer messages, shared state and advisory file locks, locally or across a LAN. | Agent coordination | Coordinate work between agent sessions on one computer or multiple networked machines. | [Product](https://qualixar.com/products/slm-mesh)<br>[Setup](https://github.com/qualixar/slm-mesh#multi-machine-setup)<br>[Post](https://qualixar.com/blog/slm-multi-machine-release) |
+| [ModStage](https://github.com/qualixar/modstage) | Runs Codex, Muse, Grok, Antigravity, Kimi, Qwen Code, OpenCode and Claude subagents side by side inside Claude Code, with a live panel, mid-run steering and an approval inbox. | Multi-agent observability | Hand work to several coding agents at once and watch, steer and approve what each one does. | [Product](https://qualixar.com/products/modstage)<br>[Install](https://github.com/qualixar/modstage#install)<br>[Parity matrix](https://github.com/qualixar/modstage/blob/main/docs/PARITY-MATRIX.md) |
 | [Qualixar OS](https://github.com/qualixar/qualixar-os) | Designs and runs agent teams, evaluates outputs through a judge pipeline, and retries with structured feedback. | Orchestration & judging | Run multi-agent tasks with quality review, model routing and budget tracking. | [Product](https://qualixar.com/products/qualixar-os)<br>[Setup](https://github.com/qualixar/qualixar-os#install-in-30-seconds)<br>[Post](https://qualixar.com/blog/built-an-os-for-ai-agents) |
 
 Use each repository’s setup guide for supported hosts and operating modes. Benchmark results apply to their published datasets and protocols; the SkillFortify benchmark linked above uses generated specimens.
