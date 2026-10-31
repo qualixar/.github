@@ -6,9 +6,11 @@
 
 Open-source tools for AI agent decisions, memory, behavioral contracts, bounded execution and multi-agent observability. Qualixar is an independent research initiative by [Varun Pratap Bhardwaj](https://www.varunpratap.com).
 
-**11 core products · 10 public arXiv preprints**
+**12 core products · 10 public arXiv preprints**
 
-> **New: [ModStage](https://github.com/qualixar/modstage)** runs Codex, Grok, Gemini (Antigravity), Kimi, Qwen Code, OpenCode and Claude subagents side by side inside Claude Code. Watch every step, steer agents mid-run, and approve their risky actions from the panel or from chat. MIT. [Product page](https://qualixar.com/products/modstage) · [Install](https://github.com/qualixar/modstage#install)
+> **New: [touchless-mac](https://github.com/qualixar/touchless-mac)** lets you control your Mac with your hand through the built-in camera: point to move the cursor, pinch to click, thumb + ring finger to scroll, wave to switch apps. Fully local, written in Rust, and built from an empty folder in a [beginner Rust video tutorial](https://youtu.be/ml6cmS3Jgkc). MIT. [Product page](https://qualixar.com/products/touchless-mac) · [Install](https://github.com/qualixar/touchless-mac#quick-start)
+>
+> **Also new: [ModStage](https://github.com/qualixar/modstage)** runs Codex, Grok, Gemini (Antigravity), Kimi, Qwen Code, OpenCode and Claude subagents side by side inside Claude Code. Watch every step, steer agents mid-run, and approve their risky actions from the panel or from chat. MIT. [Product page](https://qualixar.com/products/modstage) · [Install](https://github.com/qualixar/modstage#install)
 
 ## Choose a starting point
 
@@ -19,6 +21,7 @@ Open-source tools for AI agent decisions, memory, behavioral contracts, bounded 
 | Store project context and recall it across AI sessions | [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) | [Install and try a local memory workflow](https://www.superlocalmemory.com) |
 | Define behavioral contracts and check adapter outputs | [AgentAssert](https://github.com/qualixar/agentassert-abc) | [Released API and getting started](https://agentassert.com/getting-started/) |
 | Run Codex, Grok, Gemini (Antigravity), Kimi, Qwen Code and Claude subagents side by side in Claude Code, and approve their risky actions | [ModStage](https://github.com/qualixar/modstage) | [Install the Claude Code plugin](https://qualixar.com/products/modstage) |
+| Control your Mac with your hand, or learn Rust on a project you can see working | [touchless-mac](https://github.com/qualixar/touchless-mac) | [Install, gestures and the video tutorial](https://qualixar.com/products/touchless-mac) |
 
 Jev returns advisory decisions; its answer does not authorize an action. Bounded Loops' first keyless example uses a stub worker and real pytest checks. SuperLocalMemory's optional providers and connectors have separate network behavior. AgentAssert's small example checks a caller-supplied flag; it is not a security classifier. ModStage runs the agent CLIs you already have signed in; its approval inbox routes each agent's own permission requests and is not a sandbox.
 
@@ -36,6 +39,10 @@ slm setup
 
 # AgentAssert: install the YAML and mathematical dependencies
 python -m pip install 'agentassert-abc[yaml,math]'
+
+# touchless-mac: control your Mac with your hand (Apple Silicon; models included)
+curl -fsSL https://raw.githubusercontent.com/qualixar/touchless-mac/main/install.sh | bash
+touchless-mac doctor
 
 # ModStage: run other coding agents inside Claude Code (then start a new session)
 claude plugin marketplace add qualixar/modstage
@@ -66,7 +73,7 @@ Report reproducible bugs in the affected product's issue tracker. Follow the rep
 
 If a product helps your work, starring its repository is one way to follow it. Using the tools and participating in discussions does not require a star.
 
-## All 11 products
+## All 12 products
 
 Choose the capability your workflow needs, then follow the setup, examples or research in **Resources**. Product names link directly to the source repositories.
 
@@ -82,6 +89,7 @@ Choose the capability your workflow needs, then follow the setup, examples or re
 | [Agent Amplifier](https://github.com/qualixar/agent-amplifier) | Adds effort routing, goal anchoring, convergence checks and token budgets to coding-agent sessions. | Coding runtime | Keep coding sessions focused and manage effort through supported host adapters. | [Product](https://qualixar.com/products/agent-amplifier)<br>[Setup](https://github.com/qualixar/agent-amplifier#install-60-seconds)<br>[Post](https://qualixar.com/blog/agent-amplifier-v1-launch) |
 | [SLM Mesh](https://github.com/qualixar/slm-mesh) | Connects agents across harnesses with peer messages, shared state and advisory file locks, locally or across a LAN. | Agent coordination | Coordinate work between agent sessions on one computer or multiple networked machines. | [Product](https://qualixar.com/products/slm-mesh)<br>[Setup](https://github.com/qualixar/slm-mesh#multi-machine-setup)<br>[Post](https://qualixar.com/blog/slm-multi-machine-release) |
 | [ModStage](https://github.com/qualixar/modstage) | Runs Codex, Muse, Grok, Antigravity, Kimi, Qwen Code, OpenCode and Claude subagents side by side inside Claude Code, with a live panel, mid-run steering and an approval inbox. | Multi-agent observability | Hand work to several coding agents at once and watch, steer and approve what each one does. | [Product](https://qualixar.com/products/modstage)<br>[Install](https://github.com/qualixar/modstage#install)<br>[Parity matrix](https://github.com/qualixar/modstage/blob/main/docs/PARITY-MATRIX.md) |
+| [touchless-mac](https://github.com/qualixar/touchless-mac) | Turns the built-in camera into a mouse: point moves the cursor, pinches click, thumb-to-ring scrolls, waves switch apps. Runs fully on the Mac with MediaPipe hand models through ONNX Runtime. | Hand-gesture control | Use the Mac without touching it, or learn Rust on a real computer-vision app. | [Product](https://qualixar.com/products/touchless-mac)<br>[Video tutorial](https://youtu.be/ml6cmS3Jgkc)<br>[Install](https://github.com/qualixar/touchless-mac#quick-start) |
 | [Qualixar OS](https://github.com/qualixar/qualixar-os) | Designs and runs agent teams, evaluates outputs through a judge pipeline, and retries with structured feedback. | Orchestration & judging | Run multi-agent tasks with quality review, model routing and budget tracking. | [Product](https://qualixar.com/products/qualixar-os)<br>[Setup](https://github.com/qualixar/qualixar-os#install-in-30-seconds)<br>[Post](https://qualixar.com/blog/built-an-os-for-ai-agents) |
 
 Use each repository’s setup guide for supported hosts and operating modes. Benchmark results apply to their published datasets and protocols; the SkillFortify benchmark linked above uses generated specimens.
