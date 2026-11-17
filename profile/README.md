@@ -6,11 +6,7 @@
 
 Open-source tools for AI agent decisions, memory, behavioral contracts, bounded execution and multi-agent observability. Qualixar is an independent research initiative by [Varun Pratap Bhardwaj](https://www.varunpratap.com).
 
-**15 core products · 10 public arXiv preprints**
-
-> **New: [touchless-mac](https://github.com/qualixar/touchless-mac)** lets you control your Mac with your hand through the built-in camera: point to move the cursor, pinch to click, thumb + ring finger to scroll, wave to switch apps. Fully local, written in Rust, and built from an empty folder in a [beginner Rust video tutorial](https://youtu.be/ml6cmS3Jgkc). MIT. [Product page](https://qualixar.com/products/touchless-mac) · [Install](https://github.com/qualixar/touchless-mac#quick-start)
->
-> **Also new: [ModStage](https://github.com/qualixar/modstage)** runs Codex, Grok, Gemini (Antigravity), Kimi, Qwen Code, OpenCode and Claude subagents side by side inside Claude Code. Watch every step, steer agents mid-run, and approve their risky actions from the panel or from chat. MIT. [Product page](https://qualixar.com/products/modstage) · [Install](https://github.com/qualixar/modstage#install)
+**16 core products · 10 public arXiv preprints**
 
 ## Choose a starting point
 
@@ -21,6 +17,7 @@ Open-source tools for AI agent decisions, memory, behavioral contracts, bounded 
 | Store project context and recall it across AI sessions | [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) | [Install and try a local memory workflow](https://www.superlocalmemory.com) |
 | Define behavioral contracts and check adapter outputs | [AgentAssert](https://github.com/qualixar/agentassert-abc) | [Released API and getting started](https://agentassert.com/getting-started/) |
 | Run Codex, Grok, Gemini (Antigravity), Kimi, Qwen Code and Claude subagents side by side in Claude Code, and approve their risky actions | [ModStage](https://github.com/qualixar/modstage) | [Install the Claude Code plugin](https://qualixar.com/products/modstage) |
+| Make a video or a website that moves from a written brief, in Claude Code or Codex | [brief2mp4](https://github.com/qualixar/brief2mp4) + [brief2motion](https://github.com/qualixar/brief2motion) | [Install both with one plugin](https://github.com/qualixar/brief2mp4#quick-start) |
 | Control your Mac with your hand, or learn Rust on a project you can see working | [touchless-mac](https://github.com/qualixar/touchless-mac) | [Install, gestures and the video tutorial](https://qualixar.com/products/touchless-mac) |
 
 Jev returns advisory decisions; its answer does not authorize an action. Bounded Loops' first keyless example uses a stub worker and real pytest checks. SuperLocalMemory's optional providers and connectors have separate network behavior. AgentAssert's small example checks a caller-supplied flag; it is not a security classifier. ModStage runs the agent CLIs you already have signed in; its approval inbox routes each agent's own permission requests and is not a sandbox.
@@ -43,6 +40,10 @@ python -m pip install 'agentassert-abc[yaml,math]'
 # touchless-mac: control your Mac with your hand (Apple Silicon; models included)
 curl -fsSL https://raw.githubusercontent.com/qualixar/touchless-mac/main/install.sh | bash
 touchless-mac doctor
+
+# brief2mp4 + brief2motion: a video or a website that moves, from a brief (installs both)
+claude plugin marketplace add qualixar/brief2mp4
+claude plugin install brief2mp4@brief2mp4
 
 # ModStage: run other coding agents inside Claude Code (then start a new session)
 claude plugin marketplace add qualixar/modstage
@@ -73,7 +74,7 @@ Report reproducible bugs in the affected product's issue tracker. Follow the rep
 
 If a product helps your work, starring its repository is one way to follow it. Using the tools and participating in discussions does not require a star.
 
-## All 15 products
+## All 16 products
 
 Choose the capability your workflow needs, then follow the setup, examples or research in **Resources**. Product names link directly to the source repositories.
 
@@ -91,7 +92,8 @@ Choose the capability your workflow needs, then follow the setup, examples or re
 | [ModStage](https://github.com/qualixar/modstage) | Runs Codex, Muse, Grok, Antigravity, Kimi, Qwen Code, OpenCode and Claude subagents side by side inside Claude Code, with a live panel, mid-run steering and an approval inbox. | Multi-agent observability | Hand work to several coding agents at once and watch, steer and approve what each one does. | [Product](https://qualixar.com/products/modstage)<br>[Install](https://github.com/qualixar/modstage#install)<br>[Parity matrix](https://github.com/qualixar/modstage/blob/main/docs/PARITY-MATRIX.md) |
 | [touchless-mac](https://github.com/qualixar/touchless-mac) | Turns the built-in camera into a mouse: point moves the cursor, pinches click, thumb-to-ring scrolls, waves switch apps. Runs fully on the Mac with MediaPipe hand models through ONNX Runtime. | Hand-gesture control | Use the Mac without touching it, or learn Rust on a real computer-vision app. | [Product](https://qualixar.com/products/touchless-mac)<br>[Video tutorial](https://youtu.be/ml6cmS3Jgkc)<br>[Install](https://github.com/qualixar/touchless-mac#quick-start) |
 | [Qualixar OS](https://github.com/qualixar/qualixar-os) | Designs and runs agent teams, evaluates outputs through a judge pipeline, and retries with structured feedback. | Orchestration & judging | Run multi-agent tasks with quality review, model routing and budget tracking. | [Product](https://qualixar.com/products/qualixar-os)<br>[Setup](https://github.com/qualixar/qualixar-os#install-in-30-seconds)<br>[Post](https://qualixar.com/blog/built-an-os-for-ai-agents) |
-| [brief2mp4](https://github.com/qualixar/brief2mp4) | Turns a written video brief into a finished MP4 from Claude Code or Codex, then checks every line of the brief against measured output and real frames. Optional 3D and editing packs. | Motion graphics & video | Make explainers, Shorts, maths animations, product launches and 3D shots from a brief, on macOS, Windows or Linux. | [Release](https://github.com/qualixar/brief2mp4/releases/tag/v0.3.0)<br>[Video](https://youtu.be/l9mEZQon6JM)<br>[Guide](https://qualixar.com/learn/guides/brief2mp4-guide) |
+| [brief2mp4](https://github.com/qualixar/brief2mp4) | Turns a written video brief into a finished MP4 from Claude Code or Codex, then checks every line of the brief against measured output and real frames. 30 animation art forms, from claymation and paper cut-out to anime and pixel art. Optional 3D and editing packs. | Motion graphics & video | Make explainers, Shorts, maths animations, product launches and 3D shots from a brief, on macOS, Windows or Linux. | [Release](https://github.com/qualixar/brief2mp4/releases/tag/v0.4.0)<br>[Video](https://youtu.be/l9mEZQon6JM)<br>[Guide](https://qualixar.com/learn/guides/brief2mp4-guide) |
+| [brief2motion](https://github.com/qualixar/brief2motion) | Turns a plain brief into a website with professional motion, then measures it in a real browser: GSAP scroll stories, three.js product pages, kinetic type, page transitions, data stories and particles, in 32 visual styles. Installs with brief2mp4. | Website animation | Build a landing page, product page or portfolio that moves, checked for frame rate, phones and reduced motion. | [Release](https://github.com/qualixar/brief2motion/releases/tag/v1.0.0)<br>[Video](https://youtu.be/fI3a3oDvLE4)<br>[Guide](https://qualixar.com/learn/guides/brief2motion-guide) |
 | [SuperLocalMemory plugin](https://github.com/qualixar/superlocalmemory-plugin) | SuperLocalMemory packaged as a Claude Code plugin: local-first long-term memory, skills and hooks in one install. | Memory for Claude Code | Give Claude Code persistent project memory without wiring an MCP server by hand. | [Repository](https://github.com/qualixar/superlocalmemory-plugin)<br>[SuperLocalMemory](https://github.com/qualixar/superlocalmemory) |
 | [Craft Studio Setup](https://github.com/qualixar/craft-studio-setup) | One command installs free, open-source Office and Adobe alternatives on a Mac and connects them to Claude Code and Claude Desktop over MCP, with checksum-verified downloads. | Creative tools for agents | Let an agent edit documents, slides, images and media in free desktop apps. | [Repository](https://github.com/qualixar/craft-studio-setup) |
 
