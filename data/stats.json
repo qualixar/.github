@@ -1,0 +1,112 @@
+{
+  "built": "2026-11-21",
+  "downloads": {
+    "npm": 68379,
+    "pypi": 133201
+  },
+  "org_stars": 497,
+  "repos": {
+    "qualixar/agent-amplifier": {
+      "created": "2026-04-21",
+      "pushed": "2026-10-31",
+      "release": null,
+      "stars": 2
+    },
+    "qualixar/agentassay": {
+      "created": "2026-03-06",
+      "pushed": "2026-10-02",
+      "release": "v0.1.2",
+      "stars": 6
+    },
+    "qualixar/agentassert-abc": {
+      "created": "2026-04-07",
+      "pushed": "2026-10-02",
+      "release": "v0.7.0",
+      "stars": 7
+    },
+    "qualixar/bounded-loops": {
+      "created": "2026-07-06",
+      "pushed": "2026-11-20",
+      "release": "v0.7.6",
+      "stars": 5
+    },
+    "qualixar/brief2motion": {
+      "created": "2026-11-16",
+      "pushed": "2026-11-17",
+      "release": "v1.0.0",
+      "stars": 3
+    },
+    "qualixar/brief2mp4": {
+      "created": "2026-11-14",
+      "pushed": "2026-11-21",
+      "release": "v0.7.0",
+      "stars": 55
+    },
+    "qualixar/claude-bot-bridge": {
+      "created": "2026-11-20",
+      "pushed": "2026-11-21",
+      "release": "v0.1.0",
+      "stars": 1
+    },
+    "qualixar/craft-studio-setup": {
+      "created": "2026-10-22",
+      "pushed": "2026-11-01",
+      "release": "v0.3.0",
+      "stars": 1
+    },
+    "qualixar/jev-decision-layer": {
+      "created": "2026-09-25",
+      "pushed": "2026-10-02",
+      "release": "v1.0.15",
+      "stars": 6
+    },
+    "qualixar/modstage": {
+      "created": "2026-10-16",
+      "pushed": "2026-10-20",
+      "release": "v0.0.20",
+      "stars": 4
+    },
+    "qualixar/qualixar-os": {
+      "created": "2026-04-05",
+      "pushed": "2026-10-02",
+      "release": null,
+      "stars": 46
+    },
+    "qualixar/skillfortify": {
+      "created": "2026-02-26",
+      "pushed": "2026-10-02",
+      "release": "v0.6.0",
+      "stars": 41
+    },
+    "qualixar/slm-mcp-hub": {
+      "created": "2026-04-15",
+      "pushed": "2026-10-13",
+      "release": "v0.3.4",
+      "stars": 6
+    },
+    "qualixar/slm-mesh": {
+      "created": "2026-04-07",
+      "pushed": "2026-10-02",
+      "release": "v1.1.0",
+      "stars": 17
+    },
+    "qualixar/superlocalmemory": {
+      "created": "2026-02-05",
+      "pushed": "2026-11-21",
+      "release": "v4.2.34",
+      "stars": 290
+    },
+    "qualixar/superlocalmemory-plugin": {
+      "created": "2026-10-14",
+      "pushed": "2026-11-21",
+      "release": null,
+      "stars": 0
+    },
+    "qualixar/touchless-mac": {
+      "created": "2026-10-30",
+      "pushed": "2026-10-31",
+      "release": "v0.1.1",
+      "stars": 2
+    }
+  }
+}

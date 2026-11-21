@@ -16,7 +16,7 @@
 <text x="92" y="120" fill="#ffffff" font-size="78" font-weight="800">Qualixar</text>
 <text x="95" y="180" fill="#66b9ff" font-size="36" font-weight="600">AI Reliability Engineering</text>
 <text x="95" y="230" fill="#c9d6e4" font-size="25">Open-source tools for agent decisions, bounded loops, memory and behavioral contracts.</text>
-<text x="95" y="278" fill="#8ba4bd" font-size="22" letter-spacing="2">10 CORE PRODUCTS   •   10 PUBLIC ARXIV PREPRINTS</text>
+<text x="95" y="278" fill="#8ba4bd" font-size="22" letter-spacing="2">17 CORE PRODUCTS   •   10 PUBLIC ARXIV PREPRINTS</text>
 <g font-size="22" font-weight="600">
 <rect x="95" y="315" width="270" height="72" rx="14" fill="#0b1625" stroke="#244b6c"/><text x="128" y="359" fill="#dbeeff">Decision Routing</text>
 <rect x="385" y="315" width="270" height="72" rx="14" fill="#0b1625" stroke="#244b6c"/><text x="424" y="359" fill="#dbeeff">Governed Memory</text>
