@@ -6,7 +6,7 @@
 
 Open-source tools for AI agent decisions, memory, behavioral contracts, bounded execution and multi-agent observability. Qualixar is an independent research initiative by [Varun Pratap Bhardwaj](https://www.varunpratap.com).
 
-**16 core products · 10 public arXiv preprints**
+**17 core products · 10 public arXiv preprints**
 
 ## Choose a starting point
 
@@ -19,6 +19,7 @@ Open-source tools for AI agent decisions, memory, behavioral contracts, bounded 
 | Run Codex, Grok, Gemini (Antigravity), Kimi, Qwen Code and Claude subagents side by side in Claude Code, and approve their risky actions | [ModStage](https://github.com/qualixar/modstage) | [Install the Claude Code plugin](https://qualixar.com/products/modstage) |
 | Make a video or a website that moves from a written brief, in Claude Code or Codex | [brief2mp4](https://github.com/qualixar/brief2mp4) + [brief2motion](https://github.com/qualixar/brief2motion) | [Install both with one plugin](https://github.com/qualixar/brief2mp4#quick-start) |
 | Control your Mac with your hand, or learn Rust on a project you can see working | [touchless-mac](https://github.com/qualixar/touchless-mac) | [Install, gestures and the video tutorial](https://qualixar.com/products/touchless-mac) |
+| Hand a task from Claude Code to Meta's Muse, as a quick chat or a job on your own task board | [Claude Bot Bridge](https://github.com/qualixar/claude-bot-bridge) | [Install, demo and the launch film](https://qualixar.com/products/claude-bot-bridge) |
 
 Jev returns advisory decisions; its answer does not authorize an action. Bounded Loops' first keyless example uses a stub worker and real pytest checks. SuperLocalMemory's optional providers and connectors have separate network behavior. AgentAssert's small example checks a caller-supplied flag; it is not a security classifier. ModStage runs the agent CLIs you already have signed in; its approval inbox routes each agent's own permission requests and is not a sandbox.
 
@@ -74,7 +75,7 @@ Report reproducible bugs in the affected product's issue tracker. Follow the rep
 
 If a product helps your work, starring its repository is one way to follow it. Using the tools and participating in discussions does not require a star.
 
-## All 16 products
+## All 17 products
 
 Choose the capability your workflow needs, then follow the setup, examples or research in **Resources**. Product names link directly to the source repositories.
 
@@ -96,6 +97,7 @@ Choose the capability your workflow needs, then follow the setup, examples or re
 | [brief2motion](https://github.com/qualixar/brief2motion) | Turns a plain brief into a website with professional motion, then measures it in a real browser: GSAP scroll stories, three.js product pages, kinetic type, page transitions, data stories and particles, in 32 visual styles. Installs with brief2mp4. | Website animation | Build a landing page, product page or portfolio that moves, checked for frame rate, phones and reduced motion. | [Release](https://github.com/qualixar/brief2motion/releases/tag/v1.0.0)<br>[Video](https://youtu.be/fI3a3oDvLE4)<br>[Guide](https://qualixar.com/learn/guides/brief2motion-guide) |
 | [SuperLocalMemory plugin](https://github.com/qualixar/superlocalmemory-plugin) | SuperLocalMemory packaged as a Claude Code plugin: local-first long-term memory, skills and hooks in one install. | Memory for Claude Code | Give Claude Code persistent project memory without wiring an MCP server by hand. | [Repository](https://github.com/qualixar/superlocalmemory-plugin)<br>[SuperLocalMemory](https://github.com/qualixar/superlocalmemory) |
 | [Craft Studio Setup](https://github.com/qualixar/craft-studio-setup) | One command installs free, open-source Office and Adobe alternatives on a Mac and connects them to Claude Code and Claude Desktop over MCP, with checksum-verified downloads. | Creative tools for agents | Let an agent edit documents, slides, images and media in free desktop apps. | [Repository](https://github.com/qualixar/craft-studio-setup) |
+| [Claude Bot Bridge](https://github.com/qualixar/claude-bot-bridge) | A Claude Code plugin and MCP server that hands tasks to Meta's Muse: it types one line into the open Muse chat through the macOS Accessibility API and reads the reply back, or puts a card on a task board you host on Cloudflare Workers, Docker or your Mac. Signed updates, AES-256-GCM encrypted board. | Claude Code to AI bots | Keep Claude Code in charge and hand live questions or longer jobs to a consumer bot you already use. | [Product](https://qualixar.com/products/claude-bot-bridge)<br>[Launch film](https://youtu.be/BqOsAaAgyXA)<br>[Install](https://github.com/qualixar/claude-bot-bridge#quick-start-claude-code-plugin-for-muse) |
 
 Use each repository’s setup guide for supported hosts and operating modes. Benchmark results apply to their published datasets and protocols; the SkillFortify benchmark linked above uses generated specimens.
 
