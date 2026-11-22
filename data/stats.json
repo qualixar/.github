@@ -1,8 +1,8 @@
 {
-  "built": "2026-11-21",
+  "built": "2026-11-22",
   "downloads": {
-    "npm": 68379,
-    "pypi": 133201
+    "npm": 68932,
+    "pypi": 134053
   },
   "org_stars": 497,
   "repos": {
@@ -32,14 +32,14 @@
     },
     "qualixar/brief2motion": {
       "created": "2026-11-16",
-      "pushed": "2026-11-17",
-      "release": "v1.0.0",
+      "pushed": "2026-11-22",
+      "release": "v1.1.0",
       "stars": 3
     },
     "qualixar/brief2mp4": {
       "created": "2026-11-14",
-      "pushed": "2026-11-21",
-      "release": "v0.7.0",
+      "pushed": "2026-11-22",
+      "release": "v0.8.0",
       "stars": 55
     },
     "qualixar/claude-bot-bridge": {
