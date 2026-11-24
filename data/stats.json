@@ -1,14 +1,14 @@
 {
   "built": "2026-11-24",
   "downloads": {
-    "npm": 69420,
+    "npm": 69654,
     "pypi": 134966
   },
-  "org_stars": 507,
+  "org_stars": 508,
   "repos": {
     "qualixar/agent-amplifier": {
       "created": "2026-04-21",
-      "pushed": "2026-10-31",
+      "pushed": "2026-11-24",
       "release": null,
       "stars": 2
     },
@@ -40,7 +40,7 @@
       "created": "2026-11-14",
       "pushed": "2026-11-24",
       "release": "v0.8.0",
-      "stars": 62
+      "stars": 63
     },
     "qualixar/claude-bot-bridge": {
       "created": "2026-11-20",

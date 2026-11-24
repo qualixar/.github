@@ -10,7 +10,7 @@
 
 Qualixar builds open-source tools that make AI agents checkable: what an agent remembers, which actions it may take, when it is allowed to say "done", and how you test something that never answers the same way twice. It is an independent research initiative by [Varun Pratap Bhardwaj](https://github.com/varun369). Every flagship ships with source, examples and, where the claim needs one, a paper.
 
-**17** open-source products · **10** arXiv preprints · **507** GitHub stars
+**17** open-source products · **10** arXiv preprints · **508** GitHub stars
 
 <p align="center">
   <a href="https://qualixar.com"><img src="../assets/btn-website.png" height="40" alt="Website"></a> <a href="https://www.youtube.com/@Qualixar-AI?sub_confirmation=1"><img src="../assets/btn-youtube.png" height="40" alt="YouTube"></a> <a href="https://github.com/orgs/qualixar/discussions"><img src="../assets/btn-discussions.png" height="40" alt="Discussions"></a> <a href="https://qualixar.com/research/papers"><img src="../assets/btn-research.png" height="40" alt="Research"></a>
