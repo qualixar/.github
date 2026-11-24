@@ -6,13 +6,13 @@
 
 Qualixar builds open-source tools that make AI agents checkable: what an agent remembers, which actions it may take, when it is allowed to say "done", and how you test something that never answers the same way twice. It is an independent research initiative by [Varun Pratap Bhardwaj](https://github.com/varun369). Every flagship ships with source, examples and, where the claim needs one, a paper.
 
-**17** open-source products · **10** arXiv preprints · **503** GitHub stars
+**17** open-source products · **10** arXiv preprints · **507** GitHub stars
 
 [Website](https://qualixar.com) · [Research](https://qualixar.com/research/papers) · [YouTube](https://www.youtube.com/@Qualixar-AI) · [Discussions](https://github.com/orgs/qualixar/discussions)
 
 ### ⭐ [SuperLocalMemory](https://github.com/qualixar/superlocalmemory): the flagship
 
-Local-first memory for AI agents. Claude Code, Codex, Cursor and other MCP clients keep project context across sessions, and every recall points back to its source. **203k+ downloads** across npm and PyPI. Backed by 4 arXiv preprints.
+Local-first memory for AI agents. Claude Code, Codex, Cursor and other MCP clients keep project context across sessions, and every recall points back to its source. **204k+ downloads** across npm and PyPI. Backed by 4 arXiv preprints.
 
 [![stars](https://img.shields.io/github/stars/qualixar/superlocalmemory?style=for-the-badge&label=stars&color=f5b301&labelColor=2b2b2b)](https://github.com/qualixar/superlocalmemory) [![npm](https://img.shields.io/npm/dt/superlocalmemory?style=for-the-badge&label=npm&color=cb3837&labelColor=2b2b2b)](https://www.npmjs.com/package/superlocalmemory) [![pypi](https://img.shields.io/pepy/dt/superlocalmemory?style=for-the-badge&label=pypi&color=3775a9&labelColor=2b2b2b)](https://pypi.org/project/superlocalmemory/) [![release](https://img.shields.io/github/v/release/qualixar/superlocalmemory?style=for-the-badge&label=release&color=3b82f6&labelColor=2b2b2b)](https://github.com/qualixar/superlocalmemory/releases)
 
@@ -77,4 +77,4 @@ arXiv records are preprints, not peer review. Each paper states its assumptions,
 
 Ask setup questions and propose workflows in [Discussions](https://github.com/orgs/qualixar/discussions). Report reproducible bugs in the product's own issue tracker, and follow each repository's security policy for vulnerabilities. See the [community guide](https://github.com/qualixar/.github/blob/main/COMMUNITY.md).
 
-<sub>Tables, counts and downloads refresh automatically every day from [one product list](https://github.com/qualixar/.github/blob/main/data/products.json). Last build: 2026-11-23.</sub>
+<sub>Tables, counts and downloads refresh automatically every day from [one product list](https://github.com/qualixar/.github/blob/main/data/products.json). Last build: 2026-11-24.</sub>
