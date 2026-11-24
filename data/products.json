@@ -15,7 +15,7 @@
      "start": "https://www.superlocalmemory.com"},
     {"slug": "brief2mp4", "name": "brief2mp4 + brief2motion", "repo": "qualixar/brief2mp4", "tier": "flagship", "area": "Motion",
      "includes": ["qualixar/brief2motion"],
-     "line": "Write a brief in Claude Code or Codex, get a checked MP4 or a website that moves. 82 art forms; brief2motion installs with it.",
+     "line": "Write a brief in Claude Code or Codex. brief2mp4 makes a checked MP4 in 82 art forms, even a [full documentary](https://youtu.be/aP2wHwG_dSA); brief2motion makes a website that moves ([film + website](https://youtu.be/fI3a3oDvLE4)). One install gives you both.",
      "start": "https://github.com/qualixar/brief2mp4#quick-start"},
     {"slug": "bounded-loops", "name": "Bounded Loops", "repo": "qualixar/bounded-loops", "tier": "flagship", "area": "Loops & graphs",
      "line": "Agent loops and graphs that stop on an independent gate, with spend bounds set before the run and a hash-chained ledger.",

@@ -140,6 +140,12 @@ def _badges(repo: str, release: str | None) -> str:
     return f"{stars} {ver}"
 
 
+def _included_stars(repo: str) -> str:
+    short = repo.split("/")[1]
+    return (f"[![{short} stars](https://img.shields.io/github/stars/{repo}?style=flat"
+            f"&label=%E2%98%85%20{short}&color=f5b301&labelColor=2b2b2b)](https://github.com/{repo})")
+
+
 def _paper_count(reg: dict, slug: str) -> int:
     return sum(1 for x in reg["papers"] if x["product"] == slug)
 
@@ -167,12 +173,20 @@ def _row(reg: dict, stats: dict, p: dict, shipped: bool = False) -> str:
     s = stats["repos"].get(p["repo"], {})
     papers = _paper_count(reg, p["slug"])
     proof = _badges(p["repo"], s.get("release"))
+    for r in p.get("includes", []):
+        # a bundled repo gets its own linked star badge, so it can be starred from here
+        proof += f" {_included_stars(r)}"
     if papers:
         proof += f"<br><sub>{papers} paper{'s' if papers > 1 else ''}</sub>"
     if shipped and s.get("created"):
         when = dt.date.fromisoformat(s["created"]).strftime("%d %b %Y").lstrip("0")
         proof += f"<br><sub>shipped {when}</sub>"
-    name = f"**[{p['name']}](https://github.com/{p['repo']})**"
+    repos = [p["repo"], *p.get("includes", [])]
+    if len(repos) > 1:
+        # a bundle row: every repo gets its own link
+        name = "**" + " + ".join(f"[{r.split('/')[1]}](https://github.com/{r})" for r in repos) + "**"
+    else:
+        name = f"**[{p['name']}](https://github.com/{p['repo']})**"
     meta = f"<sub>{p['area']} · [Start →]({p['start']})</sub>"
     return f"| {name}<br>{meta} | {p['line']} | {proof} |"
 

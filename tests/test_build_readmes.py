@@ -68,7 +68,7 @@ class Render(unittest.TestCase):
         self.assertIn("**201k+ downloads**", out)
         self.assertIn("img.shields.io/npm/dt/superlocalmemory", out)
         self.assertIn("img.shields.io/pepy/dt/superlocalmemory", out)
-        self.assertEqual(out.count("img.shields.io/github/stars/qualixar/"), 1 + 16)
+        self.assertEqual(out.count("img.shields.io/github/stars/qualixar/"), 1 + 16 + 1)  # hero + rows + brief2motion in the bundle row
         self.assertNotIn("Choose a starting point", out)
 
     def test_missing_downloads_drop_the_number_not_show_zero(self):
