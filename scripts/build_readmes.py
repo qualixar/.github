@@ -236,6 +236,29 @@ def _footer(stats: dict) -> str:
             f"Last build: {stats.get('built', 'n/a')}.</sub>")
 
 
+def youtube_bar(reg: dict) -> str:
+    """Clickable channel card (assets/youtube-banner.webp) that opens the subscribe prompt."""
+    yt = reg["youtube"]
+    return (f'<p align="center">\n'
+            f'  <a href="{yt["url"]}?sub_confirmation=1"><img src="../assets/youtube-banner.webp" '
+            f'width="560" alt="Subscribe to {yt["name"]} on YouTube"></a>\n'
+            f'</p>')
+
+
+LINK_BUTTONS = [
+    ("website", "Website", "https://qualixar.com"),
+    ("youtube", "YouTube", "https://www.youtube.com/@Qualixar-AI?sub_confirmation=1"),
+    ("discussions", "Discussions", f"https://github.com/orgs/{ORG}/discussions"),
+    ("research", "Research", "https://qualixar.com/research/papers"),
+]
+
+
+def link_buttons() -> str:
+    cells = " ".join(f'<a href="{url}"><img src="../assets/btn-{key}.png" height="40" alt="{label}"></a>'
+                     for key, label, url in LINK_BUTTONS)
+    return f'<p align="center">\n  {cells}\n</p>'
+
+
 def render_org(reg: dict, stats: dict, today: dt.date) -> str:
     flagship, new, core = split_tiers(reg, stats, today)
     names = {p["slug"]: p["name"] for p in reg["products"]}
@@ -244,13 +267,15 @@ def render_org(reg: dict, stats: dict, today: dt.date) -> str:
   <img src="../assets/qualixar-readme-hero.svg" alt="Qualixar: AI Reliability Engineering" width="100%" />
 </p>
 
+{youtube_bar(reg)}
+
 # Qualixar: AI Reliability Engineering
 
 Qualixar builds open-source tools that make AI agents checkable: what an agent remembers, which actions it may take, when it is allowed to say "done", and how you test something that never answers the same way twice. It is an independent research initiative by [Varun Pratap Bhardwaj](https://github.com/varun369). Every flagship ships with source, examples and, where the claim needs one, a paper.
 
 {_stat_line(reg, stats)}
 
-[Website](https://qualixar.com) · [Research](https://qualixar.com/research/papers) · [YouTube](https://www.youtube.com/@Qualixar-AI) · [Discussions](https://github.com/orgs/{ORG}/discussions)
+{link_buttons()}
 
 {hero(reg, stats)}
 

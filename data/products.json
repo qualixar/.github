@@ -1,4 +1,5 @@
 {
+  "youtube": {"name": "Qualixar AI", "url": "https://www.youtube.com/@Qualixar-AI"},
   "_readme": "Single source for github.com/qualixar and github.com/varun369 profile READMEs. Edit this file; scripts/build_readmes.py renders both. Stars, releases, download counts and dates are fetched live at build time. 'tier' is flagship or core; products created within new_window_days that are not flagship show under 'New'. A row with 'includes' counts those products too.",
   "new_window_days": 45,
   "hero": {
