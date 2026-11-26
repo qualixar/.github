@@ -1,10 +1,10 @@
 {
-  "built": "2026-11-25",
+  "built": "2026-11-26",
   "downloads": {
-    "npm": 70499,
-    "pypi": 135175
+    "npm": 70715,
+    "pypi": 135402
   },
-  "org_stars": 511,
+  "org_stars": 515,
   "repos": {
     "qualixar/agent-amplifier": {
       "created": "2026-04-21",
@@ -34,13 +34,13 @@
       "created": "2026-11-16",
       "pushed": "2026-11-24",
       "release": "v1.1.0",
-      "stars": 5
+      "stars": 6
     },
     "qualixar/brief2mp4": {
       "created": "2026-11-14",
       "pushed": "2026-11-24",
       "release": "v0.8.0",
-      "stars": 63
+      "stars": 64
     },
     "qualixar/claude-bot-bridge": {
       "created": "2026-11-20",
@@ -70,7 +70,7 @@
       "created": "2026-04-05",
       "pushed": "2026-10-02",
       "release": null,
-      "stars": 46
+      "stars": 47
     },
     "qualixar/skillfortify": {
       "created": "2026-02-26",
@@ -94,7 +94,7 @@
       "created": "2026-02-05",
       "pushed": "2026-11-21",
       "release": "v4.2.34",
-      "stars": 291
+      "stars": 292
     },
     "qualixar/superlocalmemory-plugin": {
       "created": "2026-10-14",
