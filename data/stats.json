@@ -1,10 +1,10 @@
 {
-  "built": "2026-11-26",
+  "built": "2026-11-27",
   "downloads": {
-    "npm": 70715,
-    "pypi": 135402
+    "npm": 71226,
+    "pypi": 136173
   },
-  "org_stars": 515,
+  "org_stars": 520,
   "repos": {
     "qualixar/agent-amplifier": {
       "created": "2026-04-21",
@@ -34,13 +34,13 @@
       "created": "2026-11-16",
       "pushed": "2026-11-24",
       "release": "v1.1.0",
-      "stars": 6
+      "stars": 8
     },
     "qualixar/brief2mp4": {
       "created": "2026-11-14",
       "pushed": "2026-11-24",
       "release": "v0.8.0",
-      "stars": 64
+      "stars": 67
     },
     "qualixar/claude-bot-bridge": {
       "created": "2026-11-20",

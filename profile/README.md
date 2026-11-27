@@ -10,7 +10,7 @@
 
 Qualixar builds open-source tools that make AI agents checkable: what an agent remembers, which actions it may take, when it is allowed to say "done", and how you test something that never answers the same way twice. It is an independent research initiative by [Varun Pratap Bhardwaj](https://github.com/varun369). Every flagship ships with source, examples and, where the claim needs one, a paper.
 
-**17** open-source products · **10** arXiv preprints · **515** GitHub stars
+**17** open-source products · **10** arXiv preprints · **520** GitHub stars
 
 <p align="center">
   <a href="https://qualixar.com"><img src="../assets/btn-website.png" height="40" alt="Website"></a> <a href="https://www.youtube.com/@Qualixar-AI?sub_confirmation=1"><img src="../assets/btn-youtube.png" height="40" alt="YouTube"></a> <a href="https://github.com/orgs/qualixar/discussions"><img src="../assets/btn-discussions.png" height="40" alt="Discussions"></a> <a href="https://qualixar.com/research/papers"><img src="../assets/btn-research.png" height="40" alt="Research"></a>
@@ -18,7 +18,7 @@ Qualixar builds open-source tools that make AI agents checkable: what an agent r
 
 ### ⭐ [SuperLocalMemory](https://github.com/qualixar/superlocalmemory): the flagship
 
-Local-first memory for AI agents. Claude Code, Codex, Cursor and other MCP clients keep project context across sessions, and every recall points back to its source. **206k+ downloads** across npm and PyPI. Backed by 4 arXiv preprints.
+Local-first memory for AI agents. Claude Code, Codex, Cursor and other MCP clients keep project context across sessions, and every recall points back to its source. **207k+ downloads** across npm and PyPI. Backed by 4 arXiv preprints.
 
 [![stars](https://img.shields.io/github/stars/qualixar/superlocalmemory?style=for-the-badge&label=stars&color=f5b301&labelColor=2b2b2b)](https://github.com/qualixar/superlocalmemory) [![npm](https://img.shields.io/npm/dt/superlocalmemory?style=for-the-badge&label=npm&color=cb3837&labelColor=2b2b2b)](https://www.npmjs.com/package/superlocalmemory) [![pypi](https://img.shields.io/pepy/dt/superlocalmemory?style=for-the-badge&label=pypi&color=3775a9&labelColor=2b2b2b)](https://pypi.org/project/superlocalmemory/) [![release](https://img.shields.io/github/v/release/qualixar/superlocalmemory?style=for-the-badge&label=release&color=3b82f6&labelColor=2b2b2b)](https://github.com/qualixar/superlocalmemory/releases)
 
@@ -83,4 +83,4 @@ arXiv records are preprints, not peer review. Each paper states its assumptions,
 
 Ask setup questions and propose workflows in [Discussions](https://github.com/orgs/qualixar/discussions). Report reproducible bugs in the product's own issue tracker, and follow each repository's security policy for vulnerabilities. See the [community guide](https://github.com/qualixar/.github/blob/main/COMMUNITY.md).
 
-<sub>Tables, counts and downloads refresh automatically every day from [one product list](https://github.com/qualixar/.github/blob/main/data/products.json). Last build: 2026-11-26.</sub>
+<sub>Tables, counts and downloads refresh automatically every day from [one product list](https://github.com/qualixar/.github/blob/main/data/products.json). Last build: 2026-11-27.</sub>
